@@ -1,6 +1,6 @@
 'use client';
 
-import { Pagination, Thumbs } from "swiper";
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore,{Autoplay}  from 'swiper';
 
@@ -23,7 +23,7 @@ SwiperCore.use([Autoplay]);
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="font-bold text-4xl pb-14 text-center">Trending</h1>
         
-        <Swiper slidesPerView={1} autoplay={{ delay: 2000 }} className="pb-20">
+        <Swiper slidesPerView={1} autoplay={{ delay: 2000 }} className="pb-20 ">
        
         
             <SwiperSlide>
