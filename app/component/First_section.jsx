@@ -21,7 +21,7 @@ SwiperCore.use([Autoplay]);
   return (
     <div className="py-16">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="font-bold text-4xl pb-14 text-center">Trending</h1>
+        <h1 className="font-serif text-4xl pb-14 text-center">Trending</h1>
         
         <Swiper slidesPerView={1} autoplay={{ delay: 2000 }} style={{paddingBottom: '50px'}}>
 
